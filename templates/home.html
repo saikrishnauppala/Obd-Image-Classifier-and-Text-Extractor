@@ -1,0 +1,34 @@
+<html>
+<body>
+	<style>
+	body{
+		background-color: #282828
+	}.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+
+	</style>
+
+<center><br><br>
+
+
+<img src="/static/brand-acv-logo-gray-tag.png" alt="Paris" class="center">
+<br><br><br><br>	
+<form action = "http://localhost:5000/classify" method = "POST" 
+         enctype = "multipart/form-data">
+         <input type = "file" name = "fileinput" id="fileinput" multiple="multiple" style="color:white; font-family :Roboto; font-size:160%; font-weight: bold" accept="image/*"/><br><br>
+         <input type = "submit" value="CLASSIFY" style="color:white; background-color:#FF4500; font-family :Roboto; font-size:160%; font-weight: bold;border:1px solid #FF4500"/>
+</form>
+
+</center>
+<script>
+function myFunction() {
+  alert("I am an alert box!");
+}
+</script>
+</body>
+</html>

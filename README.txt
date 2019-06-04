@@ -1,0 +1,9 @@
+Dependencies
+---Install python 3.x,tensorflow,keras,flask,numpy
+
+How to run
+----Run Classificationserver.py file
+----open browser and type localhost:5000/
+----upload any  number of images using upload button in html file
+----classification is done by server and places respective obd and non obd images into current directory folders
+ 
